@@ -3,11 +3,9 @@
 
 from setuptools import setup
 
-import pywxpay
-
 setup(
     name='pywxpay',
-    version='0.1',
+    version='0.4',
     description='python wxpay sdk.',
     long_description=open('README.rst').read(),
     author='wxpay',
@@ -30,7 +28,6 @@ setup(
     ],
 
     install_requires=[
-        'xmltodict',
         'requests'
     ],
 
